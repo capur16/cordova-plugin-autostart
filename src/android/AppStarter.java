@@ -17,7 +17,7 @@ public class AppStarter {
 	     this.run(context, intent, componentState, false);
     }
 
-    public void run(Context context, Intent intent, int componentState, boolean onAutostart, boolean background) {
+    public void run(Context context, Intent intent, int componentState, boolean onAutostart) {
         // Enable or Disable UserPresentReceiver (or bypass the modification)
         //Log.d("Cordova AppStarter", "UserPresentReceiver component, new state:" + String.valueOf(componentState));
         if( componentState != BYPASS_USERPRESENT_MODIFICATION ) {
@@ -41,7 +41,7 @@ public class AppStarter {
             if (onAutostart) {
               activityIntent.putExtra(CORDOVA_AUTOSTART, true);
             }
-			activityIntent.getExtras().putBoolean("cdvStartInBackground",background);//this line
+			activityIntent.getExtras().putBoolean("cdvStartInBackground",true);//this line
             context.startActivity(activityIntent);
         }
         // Start a service in the background.
