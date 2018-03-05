@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ToniKorin/cordova-plugin-autostart.git"
+    "url": "https://github.com/capur16/cordova-plugin-autostart.git"
   },
   "keywords": [
     "autostart",
@@ -26,7 +26,7 @@
   "author": "Toni Korin",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/ToniKorin/cordova-plugin-autostart/issues"
+    "url": "https://github.com/capur16/cordova-plugin-autostart/issues"
   },
-  "homepage": "https://github.com/ToniKorin/cordova-plugin-autostart"
+  "homepage": "https://github.com/capur16/cordova-plugin-autostart"
 }
