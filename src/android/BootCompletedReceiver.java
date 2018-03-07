@@ -22,7 +22,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
 
 
       NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context, CHANNEL_ID)
-        .setSmallIcon(R.drawable.launcher_icon)
+        .setSmallIcon(R.drawable.ic_notification)
         .setContentTitle(context.getString(R.string.app_name))
         .setContentText("Apri l'applicazione per permettere la localizzazione della tua bici")
         .setStyle(new NotificationCompat.BigTextStyle()
