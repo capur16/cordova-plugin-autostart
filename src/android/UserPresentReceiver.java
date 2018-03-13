@@ -11,7 +11,7 @@ public class UserPresentReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
     
-        AppStarter appStarter = new AppStarter();
-        appStarter.run(context, intent, PackageManager.COMPONENT_ENABLED_STATE_DISABLED, true);
+        //AppStarter appStarter = new AppStarter();
+        //appStarter.run(context, intent, PackageManager.COMPONENT_ENABLED_STATE_DISABLED, true);
     }
 }
