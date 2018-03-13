@@ -47,7 +47,7 @@ public class PackageReplacedReceiver extends BroadcastReceiver {
 
   @TargetApi(26)
   private void createChannel(NotificationManager notificationManager) {
-    String name = "BikeBT";
+    String name = "BikeAlert";
     String description = "Notifications for bike connection";
     int importance = NotificationManager.IMPORTANCE_DEFAULT;
 
